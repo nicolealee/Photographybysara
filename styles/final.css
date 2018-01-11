@@ -23,3 +23,9 @@
 	border-color: white;
 		text-align: center;
 }
+.container-fluid a:hover {
+	color: black ;
+}
+.logo a:hover {
+		color: black ;
+}
