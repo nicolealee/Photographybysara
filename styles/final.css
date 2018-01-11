@@ -1,0 +1,25 @@
+/*style.css*/
+
+.w3-bar {
+	margin: 20px; 
+	text-align: center;
+	display: fixed;
+}
+
+.mySlides {
+	display:none;
+	padding: 20px;
+}
+
+.container-fluid{
+	color: white;
+	background-color: white;
+	border-color: white;
+	text-align: center;
+}
+.logo{
+	color: white;
+	background-color: white;
+	border-color: white;
+		text-align: center;
+}
