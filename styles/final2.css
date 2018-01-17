@@ -1,0 +1,30 @@
+/*style.css*/
+
+.vertical-menu {
+    width: 100%;
+	text-decoration: none;
+}
+
+.vertical-menu li a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+	font-family: "amatic SC";
+	font-size: 15px;
+}
+
+.vertical-menu li a:hover {
+    background-color: white;
+	text-decoration: none;
+}
+
+.current {
+    background-color: black;
+    color: white;
+	text-decoration: none;
+}
+.nav {
+	text-decoration: none;
+} 

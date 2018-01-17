@@ -1,31 +1,72 @@
 /*style.css*/
 
-.w3-bar {
-	margin: 20px; 
-	text-align: center;
-	display: fixed;
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	
+	overflow:hidden;
+	
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	color: white;
+	height: 50px;
+	
+	position:relative;
+	top: 0px;
+	left: 0px;
+	
+	font-family: "amatic SC";
+	font-size: 15px;
+	font-size-adjust:0.6;
+}
+.nav li {
+	float: left;
+	display: inline;
+	border-bottom: 2px;
+	margin: 10px;
+	padding:10px;
+	color: white;
 }
 
-.mySlides {
-	display:none;
-	padding: 20px;
+.nav  li a{
+	text-align: center;
+	text-align: center;
+	display: block;
+	padding: 8px;
+	text-decoration:none;
+	color: black;
 }
 
-.container-fluid{
-	color: white;
-	background-color: white;
-	border-color: white;
-	text-align: center;
+.nav li a:hover {
+	border-color: #7e7f82; 
 }
-.logo{
-	color: white;
-	background-color: white;
-	border-color: white;
-		text-align: center;
+.current{
+	border: 2px black;
+	border-color: #7e7f82 ;
+	height: 40px;
 }
-.container-fluid a:hover {
-	color: black ;
+.external li a {
+	color: #db7120;
 }
-.logo a:hover {
-		color: black ;
+.dropdown {
+	border: 2px black;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	border: 2px black ;
+    display: none;
+    position: absolute;
+    background-color: #a9a9a9;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
