@@ -5,31 +5,37 @@
 		<title> Seattle Photographer </title>
 		<link href="styles/final.css" 
 			   type="text/css"
-			   rel="stylesheet" />
+			   rel="stylesheet" 
+			   media="screen and (min-width: 500px)"/>
+		<link href="styles/final2.css" 
+			   type="text/css"
+			   rel="stylesheet" 
+			   media="screen and (max-width: 500px)"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-			<div class="topnavigation">
-				<nav class="navbar navbar-inverse navbar-fixed-top">
-				  <div class="container-fluid">
-					<div class="logo">
-					  <img 
-					</div>
-					<ul class="nav navbar-nav">
-					  <li class="active"><a href="#">HOME</a></li>
-					  <li><a href="#">nine-to-five</a></li>
-					  <li><a href="#">celebrate</a></li>
-					  <li><a href="#">family | Baby | HS senior</a></li>
-					  <li><a href="#">Whimsy chef project</a></li>
-					  <li><a href="#"> contact</a></li>
+			<div class="nav" style="min-width: 500px"> 
+					<div class="vertical-menu" style="max-width 500px" >
+					   <ul>
+						  <!-- local link-->
+						  <li class="current"><a href="home.html">HOME</a></li>
+						  <!-- local link-->
+						  <li><a href="9-5.html">nine-to-five</a></li>
+						  <!-- local link-->
+						  <li ><a href="celebrate.html">celebrate</a></li>
+						  <!-- local link-->
+						  <li ><a href="family.html">family | Baby | HS senior</a></li>
+						  <!-- external link-->
+						  <li class="external"><a href="http://whimsychef.com/">Whimsy chef project</a></li>
+						  <!-- local link-->
+						  <li ><a href="contact.html"> contact</a></li>
 					</ul>
-				  </div>
-				</nav>
-			</div>
-				
+					</div> 
+				</div>
+
 				<div class="images">
 					<div class="container">
 					  <h2>Carousel Example</h2>  
