@@ -70,3 +70,16 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.contact h2 {
+	font-family: Courier New;
+	font-size: 20px; 
+}
+..contact p {
+	font-family: Courier New;
+	font-size: 20px; 
+}
+.quote {
+		font-family: Courier New;
+	font-size: 15px; 
+}
