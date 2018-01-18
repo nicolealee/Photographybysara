@@ -71,15 +71,34 @@
     display: block;
 }
 
-.contact h2 {
-	font-family: Courier New;
-	font-size: 20px; 
+.col-sm-9 h2 {
+	padding-left: 20px; 
+	margin-top: 50px;
+	font-family:Helvetica;
+	font-size: 25px; 
 }
-..contact p {
-	font-family: Courier New;
-	font-size: 20px; 
+.col-sm-9 p {
+	padding-left: 20px; 
+	margin-top: 20px;
+	font-family: Helvetica;
+	font-size: 17px; 
 }
-.quote {
-		font-family: Courier New;
+.col-sm-9 h3 {
+	padding-left: 20px; 
+	margin-top: 20px;
+	font-family: Helvetica;
+	font-size: 15px; 
+	font-family: italics; 
+}
+.col-sm-3 h1{
+	padding-left: 20px; 
+	margin-top: 60px;
+	font-family: Helvetica;
+	font-size: 30px; 
+}
+.col-sm-3 p{
+	padding-left: 10px; 
+	margin-top: 0px;
+	font-family: Helvetica;
 	font-size: 15px; 
 }
