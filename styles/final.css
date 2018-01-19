@@ -70,7 +70,16 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.item{
+	width: 100%;
+	height:70%; 
+	
+}
+.itemactive{
+	width: 100%;
+	height:70%; 
+	
+}
 .col-sm-9 h2 {
 	padding-left: 20px; 
 	margin-top: 50px;
@@ -105,12 +114,18 @@
 	font-family: Helvetica;
 	font-size: 15px; 
 }
+.icons{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 11px; 
+	
+}
 .fa {
 	float: center;
+	margin-bottom: 10px;
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
@@ -124,19 +139,16 @@
 }
 
 .fa-facebook {
-	float: center;
   background: #839bef;
   color: white;
 }
 
 .fa-twitter {
-	float: center;
   background: #81c7ef;
   color: white;
 }
 
 .fa-google {
-	float: center;
   background: #f27a6f;
   color: white;
 }
