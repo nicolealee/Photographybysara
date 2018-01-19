@@ -74,18 +74,21 @@
 .col-sm-9 h2 {
 	padding-left: 20px; 
 	margin-top: 50px;
+	padding-right: 20px; 
 	font-family:Helvetica;
 	font-size: 25px; 
 }
 .col-sm-9 p {
 	padding-left: 20px; 
 	margin-top: 20px;
+	padding-right: 20px; 
 	font-family: Helvetica;
 	font-size: 17px; 
 }
 .col-sm-9 h3 {
 	padding-left: 20px; 
 	margin-top: 20px;
+	padding-right: 20px; 
 	font-family: Helvetica;
 	font-size: 15px; 
 	font-family: italics; 
