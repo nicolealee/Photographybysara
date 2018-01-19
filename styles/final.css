@@ -105,3 +105,38 @@
 	font-family: Helvetica;
 	font-size: 15px; 
 }
+.fa {
+	float: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-pinterest {
+  background: #f27a6f;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+	float: center;
+  background: #839bef;
+  color: white;
+}
+
+.fa-twitter {
+	float: center;
+  background: #81c7ef;
+  color: white;
+}
+
+.fa-google {
+	float: center;
+  background: #f27a6f;
+  color: white;
+}
