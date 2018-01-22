@@ -95,3 +95,11 @@
   background: #f27a6f;
   color: white;
 }
+.story{
+	text-align: center ;
+	padding-right: 11%;
+	padding-left:  11%;
+}
+.col-sm-9{
+		padding-left: 10px;
+}
