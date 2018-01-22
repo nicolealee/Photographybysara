@@ -19,7 +19,21 @@
     background-color: white;
 	text-decoration: none;
 }
-
+ .item{
+	width: 100%;
+	height:70%; 
+	
+}
+.arrows{
+	width: 100%;
+	height:70%; 
+	
+}
+.itemactive{
+	width: 100%;
+	height:70%; 
+	
+}
 .current {
     background-color: black;
     color: white;
@@ -29,14 +43,55 @@
 	text-decoration: none;
 } 
 .contact h2 {
-	font-family: Courier New;
-	font-size: 20px; 
+	font-family: "Courier New";
+	font-size: 15px; 
 }
-..contact p {
-	font-family: Courier New;
-	font-size: 20px; 
+.contact h1 {
+	font-family: "Courier New";
+	font-size: 10px; 
+}
+.contact p {
+	font-family: "Courier New";
+	font-size: 10px; 
 }
 .quote {
-		font-family: Courier New;
-	font-size: 15px; 
+		font-family: "Courier New";
+	font-size: 10px; 
+}
+.icons{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 11px; 
+	
+}
+.fa {
+	margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-pinterest {
+  background: #f27a6f;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #839bef;
+  color: white;
+}
+
+.fa-twitter {
+  background: #81c7ef;
+  color: white;
+}
+
+.fa-google {
+  background: #f27a6f;
+  color: white;
 }
